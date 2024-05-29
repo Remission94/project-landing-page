@@ -1,18 +1,11 @@
+
 body {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
+    padding: 5px 200px;
 }
 
 ul {
@@ -23,6 +16,80 @@ ul {
     gap: 10px;
 }
 
-.container-one {
+.header {
+    max-height: 75px;
+    padding: 20px 0;
     display: flex;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.container-one {
+    flex: 1;
+    display: flex;
+
+}
+
+.placeholder {
+    background-color: blue;
+    padding: 100px 200px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxes .box {
+    min-height: 100px;
+    min-width: 100px;
+    border: 2px solid red;
+}
+
+.container-three {
+    flex: 1;
+
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-four {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    height: 200px;
+    width: 800px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    max-height: 75px;
+    padding: 20px;
 }
